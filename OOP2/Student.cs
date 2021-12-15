@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace OOP2
 {
-    class Student
+    public class Student
     {
-        public void People()
+        public string FirstName;
+        public string LastName;
+        public DateTime BirthDate;
+        public string NumarMatricol;
+        
+        public Student(string FirstName, string LastName, DateTime BirthDate, string NumarMatricol)
         {
-            System.Console.WriteLine($"Hello my name is {SirstName} {LastName}")
+            this.FirstName = FirstName;
+            this.LastName = LastName;
+            this.BirthDate = BirthDate;
+            this.NumarMatricol = NumarMatricol;
         }
     }
 }
