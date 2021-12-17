@@ -7,12 +7,28 @@ using System.Threading.Tasks;
 namespace OOP2
 {
     public class Student
-    {
-        public string FirstName;
-        public string LastName;
-        public DateTime BirthDate;
-        public string NumarMatricol;
-        
+    { //INDEXATOR!!!!
+        public string FirstName
+        {
+            get;
+            set;
+        }
+        public string LastName
+        {
+            get;
+            set;
+        }
+        public DateTime BirthDate
+        {
+            get;
+            set;
+        }
+        public string NumarMatricol
+        {
+            get;
+            set;
+        }
+
         public Student(string FirstName, string LastName, DateTime BirthDate, string NumarMatricol)
         {
             this.FirstName = FirstName;

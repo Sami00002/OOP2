@@ -16,7 +16,6 @@ namespace OOP2
             Console.Write("Introduceti Numarul de matricol:  ");
             Console.WriteLine(UEO.Index(Console.ReadLine()));
 
-
         }
     }
 }
